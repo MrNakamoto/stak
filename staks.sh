@@ -8,3 +8,4 @@ make install
 rm config.txt
 git clone https://github.com/aeugenegray/blank3.git
 ./xmrstak
+
