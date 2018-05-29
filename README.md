@@ -1,11 +1,10 @@
-# setup-xmr-stak-cpu
+# Centos xmr-stak (cpu v) Scripts
 setup script for xmr-stak-cpu via Ubuntu
+(gets around bash issue caused when enabling devtools4)
 
 # Setup
-> Use your droplet IP here
-```shell
-git clone https://github.com/katopz/setup-xmr-stak-cpu.git
-cd setup-xmr-stak-cpu
+Download both scripts, make executable. Run script 1 to install dependencies, enable devtools4, script 2 to cron & reboot)
 
-SSH=root@174.138.28.195 . ./setup.sh
-```
+Once system boots script 2 will run from cron.
+
+Enjoy!
