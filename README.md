@@ -1,5 +1,5 @@
 # Centos xmr-stak (cpu v) Scripts
-setup script for xmr-stak-cpu via Ubuntu
+setup script for xmr-stak Centos with donations @ 0%
 (gets around bash issue caused when enabling devtools4)
 
 # Setup
