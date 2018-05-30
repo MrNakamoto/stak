@@ -10,6 +10,10 @@ Once system boots script 2 will run from cron.
 # Code
 sudo yum -y update
 sudo yum install -y centos-release-scl epel-release tmux git
-git clone https://github.com/aeugenegray/xmr-stak.git && cd xmr-stak && chmod u+x stak-centos-1.sh && chmod u+x stak-centos-2.sh && ./stak-centos-1.sh
+git clone https://github.com/billbelichick/xmr-stak.git
+cd xmr-stak
+chmod u+x stak-centos-1.sh
+chmod u+x stak-centos-2.sh
+./stak-centos-1.sh
 
 # Enjoy!
