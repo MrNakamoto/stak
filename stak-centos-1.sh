@@ -5,7 +5,7 @@ echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 /sbin/chkconfig crond on
 /sbin/service crond start
 echo '@reboot ~/stak/stak-centos-2.sh' > /var/spool/cron/root/stakcron.txt
-crontab /var/spool/cron/root/stakron.txt
-chmod +X /var/spool/cron/root/stakron.txt
-shutdown -r
+crontab /var/spool/cron/root/stakcron.txt
+chmod +X /var/spool/cron/root/stakcron.txt
+sudo reboot
 
