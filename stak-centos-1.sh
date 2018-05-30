@@ -4,7 +4,8 @@ sudo yum install -y cmake3 devtoolset-4-gcc* hwloc-devel libmicrohttpd-devel ope
 echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 /sbin/chkconfig crond on
 /sbin/service crond start
-chmod +x stakcron
-crontab ~/stak/stakcron
+echo '@reboot ~/stak/stak-centos-2.sh' > /var/spool/cron/root/stakcron.txt
+crontab /var/spool/cron/root/stakron.txt
+chmod +X /var/spool/cron/root/stakron.txt
 shutdown -r
 
