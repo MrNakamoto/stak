@@ -8,6 +8,8 @@ Download both scripts, make executable. Run script 1 to install dependencies, en
 Once system boots script 2 will run from cron.
 
 # Code
-sudo yum -y install git && git clone https://github.com/aeugenegray/xmr-stak.git && cd xmr-stak && chmod u+x stak-centos-1.sh && chmod u+x stak-centos-2.sh && ./stak-centos-1.sh
+sudo yum -y update
+sudo yum install -y centos-release-scl epel-release tmux git
+git clone https://github.com/aeugenegray/xmr-stak.git && cd xmr-stak && chmod u+x stak-centos-1.sh && chmod u+x stak-centos-2.sh && ./stak-centos-1.sh
 
 # Enjoy!
