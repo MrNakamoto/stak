@@ -13,7 +13,7 @@ sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git
 
-git clone https://github.com/MrNakamoto/xmr-stak.git
+git clone https://github.com/MrNakamoto/stak.git
 
 cd stak
 
@@ -25,7 +25,7 @@ chmod u+x stak-centos-2.sh
 
 # Or
 
-sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git && https://github.com/billbelichick/stak.git && cd stak && chmod u+x stak-centos-1.sh && chmod u+x stak-centos-2.sh && ./stak-centos-1.sh
+sudo yum -y update && sudo yum install -y centos-release-scl epel-release tmux git && https://github.com/MrNakamoto/stak.git && cd stak && chmod u+x stak-centos-1.sh && chmod u+x stak-centos-2.sh && ./stak-centos-1.sh
 
 # Enjoy!
 Make sure to change your Algo, Pool & User accordingly.
