@@ -13,7 +13,7 @@ sudo yum -y update
 
 sudo yum install -y centos-release-scl epel-release tmux git
 
-git clone https://github.com/billbelichick/stak.git
+git clone https://github.com/MrNakamoto/xmr-stak.git
 
 cd stak
 
