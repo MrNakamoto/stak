@@ -5,4 +5,6 @@ set timeout 20;
 send -- "\x18"
 set timeout 20;
 send -- "y\r"
+set timeout 10;
+send -- "y\r"
 expect eof
