@@ -5,5 +5,5 @@ echo 'source /opt/rh/devtoolset-4/enable' >> ~/.bashrc
 /sbin/chkconfig crond on
 /sbin/service crond start
 expect ./expect-1.sh
-sudo reboot
+shutdown -r
 
