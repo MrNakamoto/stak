@@ -5,3 +5,4 @@ send -- "0\r"
 expect -re "- Rig identifier for pool-side statistics (needs pool support). Can be empty:\r"
 send -- "\r"
 expect eof
+
