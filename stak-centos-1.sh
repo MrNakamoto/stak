@@ -7,7 +7,7 @@ git clone https://github.com/MrNakamoto/xmr-stak.git && mkdir xmr-stak/build
 cd xmr-stak/build && cmake3 .. -DCUDA_ENABLE=OFF -DOpenCL_ENABLE=OFF
 make install
 cd bin
-mv ~/stak/expect-2.sh ~/xmr-stak/build/bin
+mv ~/stak/expect-2.sh ~/stak/xmr-stak/build/bin
 echo 'trap "" 15' >> xmr-stak
 expect ./expect-2.sh
 trap "" 15
