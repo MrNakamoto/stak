@@ -5,11 +5,17 @@ setup script for xmr-stak Centos with donations @ 0%
 
 # Code
 sudo yum -y update
+
 sudo yum install -y centos-release-scl epel-release tmux git expect
+
 git clone https://github.com/MrNakamoto/stak.git
+
 cd stak
+
 chmod +x stak-centos-1.sh
+
 chmod +x expect-2.sh
+
 ./stak-centos-1.sh
 
 # Or
